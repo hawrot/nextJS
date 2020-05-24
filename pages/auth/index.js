@@ -2,7 +2,7 @@ import React from 'react';
 
 const authIndexpage = () => (
     <div>
-        <h1>The main page</h1>
+        <h1>The auth index page</h1>
     </div>
 );
 
