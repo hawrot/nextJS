@@ -3,6 +3,12 @@ import Link from 'next/link';
 import Router from 'next/router';
 
 class IndexPage extends Component {
+
+  static async getInitialProps(context){
+        console.log(context);
+        return {};
+    }
+
     render() {
         return (
 
